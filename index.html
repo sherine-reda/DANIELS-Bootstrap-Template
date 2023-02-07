@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DANIELS Bootstrap Exam</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;800&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <!-- Start Home -->
+
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top p-4">
+        <div class="container">
+          <a class="logo navbar-brand text-white" href="#">DANIELS</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+          <i class="fa-solid fa-bars text-white"></i>
+          
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end me-4"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item ">
+                <a
+                  class="nav-link active position-relative px-3 text-white"
+                  aria-current="page"
+                  href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link position-relative px-3 text-white" href="#about">About</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link position-relative px-3 text-white" href="#services"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link position-relative px-3 text-white" href="#work">Works </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link position-relative px-3 text-white" href="#testimonials">Clients </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link position-relative px-3 text-white" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link position-relative px-3 text-white" href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        class="home vh-100 d-flex  align-items-center justify-content-center"
+        id="home"
+       >
+        <div class="homeContant  text-white z-3">
+          <h5 class="text-center mb-4">Hello</h5>
+          <h1 class="text-white mb-5 "><span class="text-white">I Am </span> <span class="animat-text"></span></h1>
+          <div class="iconsHome text-center">
+            <a href=""><span class="ico-circle"><i class="fa-brands fa-facebook-f text-white  "></i></span></a>
+            <a href=""><span class="ico-circle"><i class="fa-brands fa-twitter text-white"></i></span></a>
+            <a href=""><span class="ico-circle"><i class="fa-brands fa-linkedin-in text-white"></i></span></a>
+            <a href=""><span class="ico-circle"><i class="fa-brands fa-behance text-white"></i></span></a>
+            <a href=""><span class="ico-circle"><i class="fa-brands fa-youtube text-white"></i></span></a>
+          </div>
+        </div>
+       
+      </div>
+     
+
+      <div class="overlay position-absolute w-100 h-100 top-0"></div>
+    </header>
+    <!-- End Home -->
+
+    <!-- Start About -->
+    <section id="about" class="about overflow-auto p-3">
+      <div class="container  p-5 mt-5 ">
+        <div class="row mt-3">
+          <div class="col-sm-12">
+            <div class="row">
+              <div class="col-lg-5">
+               <div class="hero-img position-relative mb-5">
+                <img src="img/hero.jpg" class="w-100 position-relative" alt="hero"/>
+               </div>
+              </div>
+
+                
+              <div class="col-lg-7">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2 mb-5">
+                    <h3 class="title-left fs-2 position-relative">About me</h3>
+                    <span class="sub-title">UI / UX Designer &amp; Web Developer</span>
+                    <p class="mt-4">I am <b>Jerry Daniels</b> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, but also the leap into electronic  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</p>
+                  </div>
+                 
+                  
+                  <div class="progress mb-4" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar d-flex flex-row justify-content-between ps-2 pe-2" style="width: 95%">
+                        <p class="text-white">Web Design</p>
+                        <p class="text-white">95%</p>
+                      </div>
+                  </div>
+                  <div class="progress mb-4" role="progressbar" aria-label="Example with label" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar d-flex flex-row justify-content-between ps-2 pe-2" style="width: 80%">
+                      <p class="text-white">Branding</p>
+                      <p class="text-white">80%</p>
+                    </div>
+                 </div>
+                <div class="progress mb-4" role="progressbar" aria-label="Example with label" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar d-flex flex-row justify-content-between ps-2 pe-2" style="width: 90%">
+                    <p class="text-white">Development</p>
+                    <p class="text-white">90%</p>
+                  </div>
+               </div>
+
+               <a href="#contact" class=" btn btn-dark px-4">Download c.v  </a>      
+               <a href="#contact" class=" btn btn-outline-dark px-4">Contact Me</a>
+
+
+
+                   
+                   
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Start SERVICES -->
+    <section id="services" class="services p-5">
+      <div class="container p-5">
+        <div class="row mb-5">
+          <div class="col-sm-12">
+            <div class="title text-center">
+              <h3 class="title-a text-center position-relative d-inline-block">Services.</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 p-3">
+            <div class="service-box p-4 shadow">
+              <div class="service-ico">
+                <span class="ico-circle"
+                  ><i class="fa-solid fa-laptop"></i
+                ></span>
+              </div>
+              <div class="service-content mt-3">
+                <h6 class="s-title text-center">Web Design</h6>
+                <p class="s-description text-center">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 p-3">
+            <div class="service-box p-4 shadow">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="fa-solid fa-bullhorn"></i></span>
+              </div>
+              <div class="service-content mt-3">
+                <h6 class="s-title text-center">Branding</h6>
+                <p class="s-description text-center">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 p-3">
+            <div class="service-box p-4 shadow">
+              <div class="service-ico">
+                <span class="ico-circle"
+                  ><i class="fa-solid fa-umbrella"></i>
+                </span>
+              </div>
+              <div class="service-content mt-3">
+                <h6 class="s-title text-center">
+                  Development</h6>
+                <p class="s-description text-center">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 p-3">
+            <div class="service-box p-4 shadow">
+              <div class="service-ico">
+                <span class="ico-circle"
+                  ><i class="fa-solid fa-gem"></i></span>
+              </div>
+              <div class="service-content mt-3">
+                <h6 class="s-title text-center">Creative Design</h6>
+                <p class="s-description text-center">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 p-3">
+            <div class="service-box p-4 shadow">
+              <div class="service-ico">
+                <span class="ico-circle"
+                  ><i class="fa-solid fa-television"></i
+                ></span>
+              </div>
+              <div class="service-content mt-3">
+                <h6 class="s-title text-center">
+                  Fully Responsive</h6>
+                <p class="s-description text-center">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 p-3">
+            <div class="service-box p-4 shadow">
+              <div class="service-ico">
+                <span class="ico-circle"
+                  ><i class="fa-solid fa-camera"></i
+                ></span>
+              </div>
+              <div class="service-content mt-3">
+                <h6 class="s-title text-center">Retina Ready</h6>
+                <p class="s-description text-center">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+    </section>
+
+    <!-- End SERVICES -->
+
+    <!-- Start WORK  -->
+    <section id="work" class="work p-5">
+      <div class="container pt-5">
+        <div class="row mb-5">
+          <div class="col-sm-12">
+            <div class="title text-center">
+              <h3 class="title-a text-center position-relative d-inline-block">Portfolio.</h3>
+            </div>
+            <div class="tabs">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all-tab-pane" type="button" role="tab" aria-controls="all-tab-pane" aria-selected="true">All</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="Brand-tab" data-bs-toggle="tab" data-bs-target="#Brand-tab-pane" type="button" role="tab" aria-controls="Brand-tab-pane" aria-selected="false">Brand</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="Design-tab" data-bs-toggle="tab" data-bs-target="#Design-tab-pane" type="button" role="tab" aria-controls="Design-tab-pane" aria-selected="false">Design</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="Graphic-tab" data-bs-toggle="tab" data-bs-target="#Graphic-tab-pane" type="button" role="tab" aria-controls="Graphic-tab-pane" aria-selected="false" >Graphic</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+
+                <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab" tabindex="0">
+                  <div class="row gy-4">
+                    <div class="col-md-6 col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img src="img/portfolio/1.jpg" class="w-100" alt="port1">
+                        <div class="overlay-item d-flex justify-content-center align-items-center">
+                          <div class="item-overlay-contant">
+                            <h6 class="">WEB DESIGN</h6>
+                          <div class="icon-item  text-center">
+                            <a href=""><i class="fa-solid fa-link text-white "></i></a>
+                            <a href="" ><i class="fa-solid fa-magnifying-glass-plus text-white  "></i></a>
+                         </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img src="img/portfolio/2.jpg" class="w-100" alt="port1">
+                        <div class="overlay-item d-flex justify-content-center align-items-center">
+                          <div class="item-overlay-contant">
+                            <h6 class="">WEB DESIGN</h6>
+                          <div class="icon-item  text-center">
+                            <a href=""><i class="fa-solid fa-link text-white "></i></a>
+                            <a href="" ><i class="fa-solid fa-magnifying-glass-plus text-white  "></i></a>
+                         </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img src="img/portfolio/3.jpg" class="w-100" alt="port1">
+                        <div class="overlay-item d-flex justify-content-center align-items-center">
+                          <div class="item-overlay-contant">
+                            <h6 class="">WEB DESIGN</h6>
+                          <div class="icon-item  text-center">
+                            <a href=""><i class="fa-solid fa-link text-white "></i></a>
+                            <a href="" ><i class="fa-solid fa-magnifying-glass-plus text-white  "></i></a>
+                         </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img src="img/portfolio/4.jpg" class="w-100" alt="port1">
+                        <div class="overlay-item d-flex justify-content-center align-items-center">
+                          <div class="item-overlay-contant">
+                            <h6 class="">WEB DESIGN</h6>
+                          <div class="icon-item  text-center">
+                            <a href=""><i class="fa-solid fa-link text-white "></i></a>
+                            <a href="" ><i class="fa-solid fa-magnifying-glass-plus text-white  "></i></a>
+                         </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img src="img/portfolio/5.jpg" class="w-100" alt="port1">
+                        <div class="overlay-item d-flex justify-content-center align-items-center">
+                          <div class="item-overlay-contant">
+                            <h6 class="">WEB DESIGN</h6>
+                          <div class="icon-item  text-center">
+                            <a href=""><i class="fa-solid fa-link text-white "></i></a>
+                            <a href="" ><i class="fa-solid fa-magnifying-glass-plus text-white  "></i></a>
+                         </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img src="img/portfolio/6.jpg" class="w-100" alt="port1">
+                        <div class="overlay-item d-flex justify-content-center align-items-center">
+                          <div class="item-overlay-contant">
+                            <h6 class="">WEB DESIGN</h6>
+                          <div class="icon-item  text-center">
+                            <a href=""><i class="fa-solid fa-link text-white "></i></a>
+                            <a href="" ><i class="fa-solid fa-magnifying-glass-plus text-white  "></i></a>
+                         </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="Brand-tab-pane" role="tabpanel" aria-labelledby="Brand-tab" tabindex="0">
+                  <div class="row gy-4">
+                    <div class="col-md-6 col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img src="img/portfolio/4.jpg" class="w-100" alt="port1">
+                        <div class="overlay-item d-flex justify-content-center align-items-center">
+                          <div class="item-overlay-contant">
+                            <h6 class="">WEB DESIGN</h6>
+                          <div class="icon-item  text-center">
+                            <a href=""><i class="fa-solid fa-link text-white "></i></a>
+                            <a href="" ><i class="fa-solid fa-magnifying-glass-plus text-white  "></i></a>
+                         </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img src="img/portfolio/6.jpg" class="w-100" alt="port1">
+                        <div class="overlay-item d-flex justify-content-center align-items-center">
+                          <div class="item-overlay-contant">
+                            <h6 class="">WEB DESIGN</h6>
+                          <div class="icon-item  text-center">
+                            <a href=""><i class="fa-solid fa-link text-white "></i></a>
+                            <a href="" ><i class="fa-solid fa-magnifying-glass-plus text-white  "></i></a>
+                         </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="Design-tab-pane" role="tabpanel" aria-labelledby="Design-tab" tabindex="0"><div class="row gy-4">
+                  <div class="col-md-6 col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="img/portfolio/2.jpg" class="w-100" alt="port1">
+                      <div class="overlay-item d-flex justify-content-center align-items-center">
+                        <div class="item-overlay-contant">
+                          <h6 class="">WEB DESIGN</h6>
+                        <div class="icon-item  text-center">
+                          <a href=""><i class="fa-solid fa-link text-white "></i></a>
+                          <a href="" ><i class="fa-solid fa-magnifying-glass-plus text-white  "></i></a>
+                       </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-md-6 col-lg-4">
+                    <div class="item position-relative overflow-hidden">
+                      <img src="img/portfolio/5.jpg" class="w-100" alt="port1">
+                      <div class="overlay-item d-flex justify-content-center align-items-center">
+                        <div class="item-overlay-contant">
+                          <h6 class="">WEB DESIGN</h6>
+                        <div class="icon-item  text-center">
+                          <a href=""><i class="fa-solid fa-link text-white "></i></a>
+                          <a href="" ><i class="fa-solid fa-magnifying-glass-plus text-white  "></i></a>
+                       </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div></div>
+                <div class="tab-pane fade" id="Graphic-tab-pane" role="tabpanel" aria-labelledby="Graphic-tab" tabindex="0">
+                  <div class="row gy-4">
+                    <div class="col-md-6 col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img src="img/portfolio/1.jpg" class="w-100" alt="port1">
+                        <div class="overlay-item d-flex justify-content-center align-items-center">
+                          <div class="item-overlay-contant">
+                            <h6 class="">WEB DESIGN</h6>
+                          <div class="icon-item  text-center">
+                            <a href=""><i class="fa-solid fa-link text-white "></i></a>
+                            <a href="" ><i class="fa-solid fa-magnifying-glass-plus text-white  "></i></a>
+                         </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img src="img/portfolio/3.jpg" class="w-100" alt="port1">
+                        <div class="overlay-item d-flex justify-content-center align-items-center">
+                          <div class="item-overlay-contant">
+                            <h6 class="">WEB DESIGN</h6>
+                          <div class="icon-item  text-center">
+                            <a href=""><i class="fa-solid fa-link text-white "></i></a>
+                            <a href="" ><i class="fa-solid fa-magnifying-glass-plus text-white  "></i></a>
+                         </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-4">
+                      <div class="item position-relative overflow-hidden">
+                        <img src="img/portfolio/5.jpg" class="w-100" alt="port1">
+                        <div class="overlay-item d-flex justify-content-center align-items-center">
+                          <div class="item-overlay-contant">
+                            <h6 class="">WEB DESIGN</h6>
+                          <div class="icon-item  text-center">
+                            <a href=""><i class="fa-solid fa-link text-white "></i></a>
+                            <a href="" ><i class="fa-solid fa-magnifying-glass-plus text-white  "></i></a>
+                         </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           </div>
+          </div>
+        </div>
+        
+
+          
+        </div>
+      </div>
+
+    </section>
+    <!-- End WORK  -->
+<!-- Start Testimonials -->
+ <section id="testimonials" class="testimonials p-5 ">
+  <div class="row mb-5 p-5">
+    <div class="col-sm-12">
+      <div class="title text-center">
+        <h3 class="title-a text-center position-relative d-inline-block">Testimonials.</h3>
+      </div>
+
+      <div class="section-cursol paralax-mf bg-image position-relative p-5">
+        <div class="overlay-mf"></div>
+
+        <div class="container p-2">
+          <div class="row">
+            <div class="col-md-12 ">
+              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true" >
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner ">
+                  <div class="carousel-item active ">
+                    <div class="img-slider"><img src="img/clients/1 (1).jpg" class="d-block w-100" alt=""></div>
+                    <div class="carousel-caption  d-md-block">
+                    
+                      <p>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      </p>
+                      <h6 class="text-center">Alex Smith</h6>
+                     <span>Envato Customer</span>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ">
+                    <div class="img-slider"><img src="img/clients/1 (1).jpg" class="d-block w-100" alt="..."></div>
+                    <div class="carousel-caption d-md-block ">
+                      
+                      <p>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      </p>
+                      <h6>Alex Smith</h6>
+                      <span>Envato Customer</span>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ">
+                    <div class="img-slider"><img src="img/clients/1 (1).jpg" class="d-block w-100" alt="..."></div>
+                    <div class="carousel-caption d-md-block "> 
+                      <p>
+                        Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      </p>
+                      <h6>Alex Smith</h6>
+                      <span>Envato Customer</span>
+                    </div>
+                  </div>
+                
+                </div>
+             </div> 
+              </div>
+            </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- counter section -->
+<section class="counter-section p-5"> 
+  <div class="container p-5">
+  <div class=" row">
+    <div class="col-lg-3 mb-md-5">
+     <div class="item text-center">
+      <i class="fa-solid fa-users fs-2"></i>
+      <h3 class="counter fs-3 fw-bolder">850</h3>
+      <p>Happy Customers</p>
+     </div>
+    </div>
+
+   <div class="col-lg-3 mb-md-5">
+    <div class="item text-center">
+      <i class="fa-solid fa-thumbs-up  fs-2"></i>
+      <h3 class="counter">230</h3>
+      <p>Complete Projects</p>
+    </div>
+   </div>
+
+   <div class="col-lg-3 mb-md-5">
+    <div class="item text-center">
+      <i class="fa-solid fa-bullhorn  fs-2"></i>
+      <h3 class="counter">9450</h3>
+      <p>Lines Of Code</p>
+    </div>
+   </div>
+
+   <div class="col-lg-3 mb-md-5">
+    <div class="item text-center">
+      <i class="fa-solid fa-cloud-arrow-down  fs-2"></i>
+      <h3 class="counter">780</h3>
+      <p>Files Downloaded</p>
+    </div>
+   </div>
+   </div>
+ </div>
+</section>
+<!-- End Testimonials -->
+    <!-- Start BLOG -->
+    <section id="blog" class="blog pt-5 ">
+      <div class="container-fluid pt-5">
+        <div class="row mb-5 ">
+          <div class="col-sm-12">
+            <div class="title m-auto w-25 mb-5">
+              <h3 class="title-a text-center">Our Blog.</h3>
+            </div>
+             
+             
+           <div class="container-fluid p-2">
+            <div class="row">
+            <div class="col-md-12 ">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+               <div class="carousel-indicators">
+                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+               </div>
+               <div id="carouselExampleSlidesOnly" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4 p-3 overflow-hidden">
+                       <div class="card overflow-hidden">
+                          <div class="card-img overflow-hidden">
+                            <img src="img/blog/1.jpg" class="card-img-top" alt="...">
+                         </div>
+                         <div class="card-body">
+                          <a href="">
+                            <h6 class="w-title">WordPress</h6>
+                            <h4>Top WordPress Themes and Plugins for Hotels, Travel, and</h4>
+                            <span class="more">
+                             Read More
+                           </span>
+                          </a>
+                         </div>
+                       </div>    
+                        </div>
+                        <div class="col-md-4 p-3 overflow-hidden">
+                         <div class="card overflow-hidden">
+                            <div class="card-img overflow-hidden">
+                              <img src="img/blog/2.jpg" class="card-img-top" alt="...">
+                           </div>
+                           <div class="card-body">
+                            <a href="">
+                              <h6 class="w-title">Trends</h6>
+                              <h4>Master These Awesome New Skills in March 2018</h4>
+                              <span class="more">
+                               Read More
+                             </span>
+                            </a>
+                           </div>
+                         </div>    
+                         </div>
+                          <div class="col-md-4  p-3 overflow-hidden">
+                           <div class="card overflow-hidden">
+                              <div class="card-img overflow-hidden">
+                                <img src="img/blog/3.jpg" class="card-img-top" alt="...">
+                             </div>
+                             <div class="card-body">
+                              <a href="">
+                                <h6 class="w-title">Themeforest</h6>
+                                <h4>The 20 Best Lightroom Presets You Need to Know </h4>
+                                <span class="more">
+                                 Read More
+                               </span>
+                              </a>
+                             </div>
+                           </div>    
+                          </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ">
+                   
+                   <div class="row">
+                     <div class="col-md-4 p-3 overflow-hidden">
+                       <div class="card overflow-hidden">
+                          <div class="card-img overflow-hidden">
+                            <img src="img/blog/2.jpg" class="card-img-top" alt="...">
+                         </div>
+                         <div class="card-body">
+                          <a href="">
+                            <h6 class="w-title">WordPress</h6>
+                            <h4>Top WordPress Themes and Plugins for Hotels, Travel, and</h4>
+                            <span class="more">
+                             Read More
+                           </span>
+                          </a>
+                         </div>
+                       </div>    
+                        </div>
+                        <div class="col-md-4 p-3 overflow-hidden">
+                         <div class="card overflow-hidden">
+                            <div class="card-img overflow-hidden">
+                              <img src="img/blog/3.jpg" class="card-img-top" alt="...">
+                           </div>
+                           <div class="card-body">
+                            <a href="">
+                              <h6 class="w-title">Trends</h6>
+                              <h4>The 20 Best Lightroom Presets You Need to Know</h4>
+                              <span class="more">
+                               Read More
+                             </span>
+                            </a>
+                           </div>
+                         </div>    
+                         </div>
+                          <div class="col-md-4 p-3 overflow-hidden">
+                           <div class="card overflow-hidden">
+                              <div class="card-img overflow-hidden">
+                                <img src="img/blog/4.jpg" class="card-img-top" alt="...">
+                             </div>
+                             <div class="card-body">
+                              <a href="">
+                                <h6 class="w-title">Trends</h6>
+                                <h4>Best Design Items to Appeal to the Millennial Generation</h4>
+                                <span class="more">
+                                 Read More
+                                </span>
+                              </a>
+                             </div>
+                           </div>    
+                          </div>
+                  </div>
+
+                
+               
+                  </div>
+                </div> 
+
+                
+              </div>
+             </div>
+           </div>
+        </div>
+       </div>
+          </div>
+       </div>
+      </div>
+    </section>
+    <!-- End BLOG -->
+
+    <!-- Start CONTACT -->
+    <section id="contact" class="contact overflow-auto  paralax-mf bg-image position-relative p-5 ">
+     <div class="container position-relative z-3 p-5">
+         <div class="row mt-3 p-5">
+           <div class="col-sm-12">
+             <div class="title text-center mb-5">
+               <h3 class="title-a text-center position-relative d-inline-block">Contact Us.</h3>
+             </div>
+             <div class="row gx-0">
+               <div class="col-lg-4 mb-md-4">
+								 <div class="item ">
+									<span class="icon"><i class="fa fa-location-arrow"></i></span>
+									<h6 class="text-center">Address</h6>
+									<p>6834 Hollywood Blvd - Los Angeles CA</p>
+								  </div>
+							 </div>
+
+               <div class="col-lg-4 mb-md-4">
+								<div class="item">
+									<span class="icon"><i class="fa fa-envelope"></i></span>
+									<h6 class="text-center">Email</h6>
+									<p>Support@website.com</p>
+								</div>
+							 </div>
+
+               <div class="col-lg-4 mb-md-4">
+								<div class="item">
+									<span class="icon"><i class="fa fa-phone"></i></span>
+									<h6 class="text-center">Phone</h6>
+									<p>+20 010 2517 8918</p>
+								</div>
+							 </div>
+              </div>
+              <form class="form  pt-5" >
+                <div class="controls">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div>
+                                <input type="text" name="name" placeholder="Name" required="required">
+                            </div>
+                        </div>
+
+                         <div class="col-lg-6">
+                            <div>
+                                <input type="email" name="email" placeholder="Email" required="required">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div >
+                                <textarea  name="message" placeholder="Message" rows="4" required="required"></textarea>
+                            </div>
+
+                            <button type="submit" value="Submit" class="btn btn-dark">submit</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+           </div>
+          </div>
+        </div>
+      
+    </section>
+    <!-- End CONTACT -->
+<!-- Footer -->
+<footer class="position-relative z-2 pt-4 pb-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 ">
+        <div class="copyright-box">
+          <p class="copyright text-white text-center">Copy Right 2018 © By Daniels All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="rounded-circle" style="display: inline;"><i class="fa-solid fa-chevron-up"></i></i></a>
+    
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
